@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="@color/teal_200">
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:text="BUTTON"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/teal_700">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="300dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:paddingLeft="25dp"
+                android:text="TXT" />
+
+            <EditText
+                android:layout_width="130dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="300dp"
+                android:paddingLeft="25dp"
+                android:text="TXT" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="115dp"
+            android:background="@color/black">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:text="Button"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="225dp"
+            android:background="@color/purple_200">
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Text"/>
+
+            <EditText
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="100dp"
+                android:paddingLeft="25dp"
+                android:text="Text"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="100dp"
+                android:text="Button"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:text="BUTTON"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/purple_500">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:text="BUTTON" />
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="TEXT"
+            android:paddingLeft="50dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="TEXT"
+            android:layout_marginTop="100dp"
+            android:layout_toLeftOf="@id/btn1"
+            android:paddingLeft="50dp"/>
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="TEXT"
+            android:layout_toRightOf="@id/btn1"
+            android:paddingLeft="50dp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_toEndOf="@id/btn1"
+            android:layout_marginTop="190dp"
+            android:text="BUTTON" />
+    </RelativeLayout>
+
+</LinearLayout>
